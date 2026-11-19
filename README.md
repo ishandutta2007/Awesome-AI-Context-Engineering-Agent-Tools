@@ -7,7 +7,7 @@
 <p align="center">
   <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
   <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
-  <a href="https://github.com/ishandutta2007/Awesome-AI-Context-Engineering-Agent-Tools/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-AI-Context-Engineering-Agent-Tools?style=social" alt="GitHub Stars" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-AI-Context-Engineering-Agent-Tools/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-AI-Context-Engineering-Agent-Tools?style=social" alt="GitHub_Stars" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-AI-Context-Engineering-Agent-Tools/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-AI-Context-Engineering-Agent-Tools?style=social" alt="GitHub Forks" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-AI-Context-Engineering-Agent-Tools/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-green.svg" alt="License: MIT" /></a>
   <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
@@ -64,9 +64,9 @@ The sector is currently **moderately fragmented at the tooling and evaluation ap
 
 ## 💻 Open-Source GitHub Projects
 
-*Ranked strictly by GitHub Star Count (Descending). Each badge links directly to the project's stargazers community.*
+*Ranked strictly by GitHub Stars_Count (Descending). Each badge links directly to the project's stargazers community.*
 
-| 🏆 Project & Star Badge | 📜 License | 🎯 Core Context Engineering & Agent Capabilities |
+| 🏆 Project & Stars_Badge | 📜 License | 🎯 Core Context Engineering & Agent Capabilities |
 | :--- | :--- | :--- |
 | **[MarkItDown (`microsoft/markitdown`)](https://github.com/microsoft/markitdown)**<br>[![Stars](https://img.shields.io/github/stars/microsoft/markitdown?style=social&color=white)](https://github.com/microsoft/markitdown/stargazers) | `MIT` | Python engine for converting PDFs, Office docs (Word, Excel, PowerPoint), audio, and images into clean Markdown context optimized for LLMs. |
 | **[LangChain (`langchain-ai/langchain`)](https://github.com/langchain-ai/langchain)**<br>[![Stars](https://img.shields.io/github/stars/langchain-ai/langchain?style=social&color=white)](https://github.com/langchain-ai/langchain/stargazers) | `MIT` | Foundational framework for composing multi-step agent graphs, context retrieval pipelines, prompt templates, and structured tool interactions. |
