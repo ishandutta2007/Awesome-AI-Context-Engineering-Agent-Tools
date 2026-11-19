@@ -1,0 +1,192 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 420" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradients -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0c16"/>
+      <stop offset="50%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#070913"/>
+    </linearGradient>
+
+    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="rgba(255, 255, 255, 0.07)"/>
+      <stop offset="100%" stop-color="rgba(255, 255, 255, 0.02)"/>
+    </linearGradient>
+
+    <!-- Glowing Orbs Gradients -->
+    <radialGradient id="glowPurple" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#8b5cf6" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#8b5cf6" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowCyan" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#06b6d4" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#06b6d4" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowPink" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ec4899" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#ec4899" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- Title Gradient -->
+    <linearGradient id="titleGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8"/>
+      <stop offset="45%" stop-color="#a855f7"/>
+      <stop offset="85%" stop-color="#f43f5e"/>
+      <stop offset="100%" stop-color="#fb923c"/>
+    </linearGradient>
+
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#06b6d4"/>
+      <stop offset="100%" stop-color="#3b82f6"/>
+    </linearGradient>
+
+    <!-- Grid Pattern -->
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="rgba(255, 255, 255, 0.04)" stroke-width="1"/>
+      <circle cx="40" cy="40" r="1" fill="rgba(255, 255, 255, 0.1)"/>
+    </pattern>
+
+    <style>
+      .bg-pulse {
+        animation: pulseOrb 8s ease-in-out infinite alternate;
+      }
+      .bg-pulse-rev {
+        animation: pulseOrbRev 9s ease-in-out infinite alternate;
+      }
+      .stream-line {
+        stroke-dasharray: 8 12;
+        animation: dashStream 20s linear infinite;
+      }
+      .stream-line-fast {
+        stroke-dasharray: 6 10;
+        animation: dashStream 12s linear infinite reverse;
+      }
+      .floating-pill {
+        animation: floatPill 6s ease-in-out infinite alternate;
+      }
+      .radar-sweep {
+        transform-origin: 600px 210px;
+        animation: rotateSweep 14s linear infinite;
+      }
+      @keyframes dashStream {
+        to { stroke-dashoffset: -400; }
+      }
+      @keyframes floatPill {
+        0% { transform: translateY(0px); }
+        100% { transform: translateY(-8px); }
+      }
+      @keyframes pulseOrb {
+        0% { transform: scale(1) translate(0, 0); opacity: 0.7; }
+        50% { transform: scale(1.15) translate(20px, -15px); opacity: 1; }
+        100% { transform: scale(0.95) translate(-15px, 15px); opacity: 0.6; }
+      }
+      @keyframes pulseOrbRev {
+        0% { transform: scale(0.95) translate(0, 0); opacity: 0.6; }
+        50% { transform: scale(1.1) translate(-25px, 15px); opacity: 0.9; }
+        100% { transform: scale(1.05) translate(20px, -20px); opacity: 0.7; }
+      }
+      @keyframes rotateSweep {
+        from { transform: rotate(0deg); }
+        to { transform: rotate(360deg); }
+      }
+      .title-text {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+        font-weight: 800;
+        font-size: 42px;
+        letter-spacing: -0.5px;
+      }
+      .subtitle-text {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+        font-weight: 500;
+        font-size: 17px;
+        fill: #94a3b8;
+        letter-spacing: 0.2px;
+      }
+      .badge-text {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+        font-weight: 600;
+        font-size: 12px;
+      }
+    </style>
+  </defs>
+
+  <!-- Canvas Background -->
+  <rect width="1200" height="420" rx="16" fill="url(#bgGrad)"/>
+  <rect width="1200" height="420" rx="16" fill="url(#grid)"/>
+
+  <!-- DYNAMIC / ANIMATED BACKGROUND ELEMENTS (Strictly in Background) -->
+  <g class="bg-pulse">
+    <circle cx="220" cy="110" r="180" fill="url(#glowPurple)"/>
+  </g>
+  <g class="bg-pulse-rev">
+    <circle cx="980" cy="290" r="220" fill="url(#glowCyan)"/>
+  </g>
+  <g class="bg-pulse">
+    <circle cx="600" cy="380" r="160" fill="url(#glowPink)"/>
+  </g>
+
+  <!-- Network Circuit Lines (Abstract Context Pipelines) -->
+  <g opacity="0.35">
+    <path class="stream-line" d="M 0 80 Q 300 160 600 80 T 1200 120" fill="none" stroke="#38bdf8" stroke-width="2"/>
+    <path class="stream-line-fast" d="M 0 340 Q 300 240 600 320 T 1200 280" fill="none" stroke="#a855f7" stroke-width="2"/>
+    <path class="stream-line" d="M 100 0 Q 300 200 200 420" fill="none" stroke="#ec4899" stroke-width="1.5"/>
+    <path class="stream-line-fast" d="M 1100 0 Q 950 220 1050 420" fill="none" stroke="#06b6d4" stroke-width="1.5"/>
+  </g>
+
+  <!-- Dynamic Constellation Nodes -->
+  <g opacity="0.5">
+    <circle cx="150" cy="90" r="3" fill="#38bdf8"/>
+    <circle cx="320" cy="140" r="2" fill="#a855f7"/>
+    <circle cx="880" cy="110" r="3" fill="#06b6d4"/>
+    <circle cx="1060" cy="170" r="2.5" fill="#f43f5e"/>
+    <circle cx="240" cy="330" r="2" fill="#38bdf8"/>
+    <circle cx="940" cy="350" r="3" fill="#a855f7"/>
+  </g>
+
+  <!-- FOREGROUND CONTENT: Clean, Centered, High Contrast (Never hidden) -->
+  <g transform="translate(600, 75)" text-anchor="middle">
+    
+    <!-- Top Pill Badge -->
+    <g class="floating-pill" transform="translate(0, 0)">
+      <rect x="-165" y="0" width="330" height="32" rx="16" fill="rgba(30, 41, 59, 0.85)" stroke="rgba(56, 189, 248, 0.5)" stroke-width="1.2"/>
+      <circle cx="-145" cy="16" r="4" fill="#10b981">
+        <animate attributeName="opacity" values="1;0.3;1" dur="2s" repeatCount="indefinite"/>
+      </circle>
+      <text x="10" y="21" class="badge-text" fill="#e2e8f0" letter-spacing="1">CURATED AGENTIC ECOSYSTEM 2026</text>
+    </g>
+
+    <!-- Main Title -->
+    <text x="0" y="85" class="title-text" fill="url(#titleGrad)">Awesome AI Context Engineering</text>
+    <text x="0" y="130" class="title-text" fill="#f8fafc">&amp; Agent Tools</text>
+
+    <!-- Subtitle / Tagline -->
+    <text x="0" y="172" class="subtitle-text">The definitive blueprint for context packing, LLM observability, RAG pipelines &amp; agent evaluation</text>
+    <text x="0" y="196" class="subtitle-text" font-size="14" fill="#64748b">Assembling high-signal token windows • Tracing multi-step agent trajectories • Benchmarking quality</text>
+
+    <!-- Feature Tags Row -->
+    <g transform="translate(0, 230)">
+      <!-- Tag 1 -->
+      <g transform="translate(-360, 0)">
+        <rect x="0" y="0" width="165" height="34" rx="17" fill="url(#cardGrad)" stroke="rgba(56, 189, 248, 0.3)" stroke-width="1"/>
+        <text x="82.5" y="22" class="badge-text" fill="#38bdf8" text-anchor="middle">⚡ Context Packing</text>
+      </g>
+      <!-- Tag 2 -->
+      <g transform="translate(-180, 0)">
+        <rect x="0" y="0" width="165" height="34" rx="17" fill="url(#cardGrad)" stroke="rgba(168, 85, 247, 0.3)" stroke-width="1"/>
+        <text x="82.5" y="22" class="badge-text" fill="#c084fc" text-anchor="middle">🔍 LLM Observability</text>
+      </g>
+      <!-- Tag 3 -->
+      <g transform="translate(5, 0)">
+        <rect x="0" y="0" width="175" height="34" rx="17" fill="url(#cardGrad)" stroke="rgba(236, 72, 153, 0.3)" stroke-width="1"/>
+        <text x="87.5" y="22" class="badge-text" fill="#f472b6" text-anchor="middle">🎯 Agent Evaluation</text>
+      </g>
+      <!-- Tag 4 -->
+      <g transform="translate(195, 0)">
+        <rect x="0" y="0" width="165" height="34" rx="17" fill="url(#cardGrad)" stroke="rgba(34, 197, 94, 0.3)" stroke-width="1"/>
+        <text x="82.5" y="22" class="badge-text" fill="#4ade80" text-anchor="middle">🌐 MCP Servers</text>
+      </g>
+    </g>
+  </g>
+
+  <!-- Border Frame -->
+  <rect x="1" y="1" width="1198" height="418" rx="15" fill="none" stroke="rgba(255, 255, 255, 0.12)" stroke-width="1.5"/>
+</svg>

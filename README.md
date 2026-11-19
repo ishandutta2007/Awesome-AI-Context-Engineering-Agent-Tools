@@ -1,54 +1,53 @@
-# Awesome-AI-Context-Engineering-Agent-Tools
+# Awesome AI Context Engineering & Agent Tools 🧠⚡
 
-## Top AI Context Engineering & Agent Tools Ecosystem
+<p align="center">
+  <img src="assets/banner.svg" alt="Awesome AI Context Engineering &amp; Agent Tools Banner" width="100%" />
+</p>
 
+<p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
+  <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-AI-Context-Engineering-Agent-Tools/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-AI-Context-Engineering-Agent-Tools?style=social" alt="GitHub Stars" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-AI-Context-Engineering-Agent-Tools/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-AI-Context-Engineering-Agent-Tools?style=social" alt="GitHub Forks" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-AI-Context-Engineering-Agent-Tools/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-green.svg" alt="License: MIT" /></a>
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+</p>
 
+---
 
-**Curated List of SaaS Products & Open-Source GitHub Projects**  
+## 🚀 The Definite Guide to AI Context Engineering, Agent Runtimes & LLM Observability
 
-*Focused on Context Engineering, Prompt & Repository Packing, Agent Tracing & Evaluation, RAG Context Pipelines & LLM Observability*  
+> **A rigorously curated, battle-tested directory of enterprise SaaS solutions and open-source developer tooling.**  
+> *Empowering AI engineers, context architects, and agent builders to pack repository context, compress high-signal token prompts, trace multi-agent execution graphs, evaluate RAG context precision, and observe production LLMs.*
 
-**Last updated: November 2026**
+📅 **Last updated:** November 2026 | 🌟 **Category Leaders:** Langfuse, Repomix, LangSmith, Arize Phoenix, Context7 MCP, DSPy, Mem0, Ragas
 
+---
 
+## 📑 Table of Contents
 
-This repository tracks notable **SaaS platforms** and **open-source projects** for **AI Context Engineering & Agent Tools**. These tools assemble, compress, and optimize context windows for AI agents, trace multi-step context retrieval and tool executions, manage versioned prompts and datasets, and evaluate agent reliability in production.
+- [🌐 Sector Overview & Market Dynamics](#-sector-overview--market-dynamics)
+- [🏢 SaaS & Hosted Platforms](#-saashosted-platforms)
+- [💻 Open-Source GitHub Projects](#-open-source-github-projects)
+- [🛠️ Architectural Recipe: Sovereign Agent Context Stack](#-architectural-recipe-sovereign-agent-context-stack)
+- [🤝 How to Contribute](#-how-to-contribute)
+- [💖 Support & Sponsorship](#-support--sponsorship)
+- [📈 Star History](#-star-history)
+- [⚖️ Disclaimer & License](#️-disclaimer--license)
 
+---
 
+## 🌐 Sector Overview & Market Dynamics
 
-**Examples** include Langfuse, Helicone, LangSmith, Arize Phoenix, OpenLIT, Traceloop, HoneyHive, Lunary, Braintrust, Weights & Biases Weave, and bowenliang123/dsh-context (the category leaders). 
+The AI observability, context management, and evaluation market is currently estimated at approximately **$1.8B to $4.1B** and is projected to expand rapidly at an explosive **~23% to 35% CAGR** through 2030 (driven by the rapid expansion of RAG systems, context-aware coding assistants, and autonomous agent loops).
 
+The sector is currently **moderately fragmented at the tooling and evaluation application layer**—with vibrant competition among specialized developer-tool startups creating novel prompt compression algorithms, context packs, and trace waterfall viewers. Concurrently, it is experiencing **rapid consolidation and concentration** toward dominant enterprise platforms and cloud hyperscalers acquiring pure-play observability leaders (e.g., CoreWeave acquiring Weights & Biases, Dynatrace acquiring Arize AI, and ServiceNow acquiring Traceloop).
 
+---
 
-**Open-source emphasis**: This section is heavily expanded with every major active project for repository/codebase context packing (`Repomix`, `Gitingest`, `Code2Prompt`, `dsh-context`), self-hosted agent tracing and context evaluation (`Langfuse`, `Arize Phoenix`, `Opik`, `OpenLIT`), context compression (`LLMLingua`), and MCP context servers — ideal for AI engineers, context architects, and agent builders crafting deterministic, high-signal LLM pipelines.
+## 🏢 SaaS/Hosted Platforms
 
-
-
-Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
-
-
-
-## Table of Contents
-
-- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
-- [SaaS/Hosted Platforms](#saashosted-platforms)
-- [Open-Source GitHub Projects](#open-source-github-projects)
-- [How to Contribute](#how-to-contribute)
-- [Disclaimer](#disclaimer)
-
-
-
-## Sector Overview & Market Dynamics
-
-The AI observability, context management, and evaluation market is currently estimated at approximately **$1.8B to $4.1B** and is projected to expand rapidly at a **~23% to 35% CAGR** through 2030 (driven in tandem by the explosive growth of RAG and agentic context platforms). 
-
-The sector is currently **moderately fragmented at the tooling and evaluation application layer**—with intense competition among specialized developer-tool startups—while undergoing **rapid consolidation and concentration** toward dominant enterprise platforms and cloud hyperscalers acquiring pure-play observability leaders.
-
-
-
-## SaaS/Hosted Platforms
-
-| Platform | Company Size (Valuation / Revenue) | Starting Price (Paid Tier) | Free Tier / Free Trial Limits | Description |
+| Platform | 🏢 Company Size (Valuation / Revenue) | 💳 Starting Price (Paid Tier) | 🎁 Free Tier / Free Trial Limits | 📋 Platform Overview |
 | :--- | :--- | :--- | :--- | :--- |
 | **[Weights & Biases Weave](https://wandb.ai)** | $1.7B acquisition valuation (by CoreWeave); ~$50M ARR (2024) | $60 / month (Pro plan; 1.5 GB data ingestion included) | Free forever plan: 1 GB/month Weave data ingestion (traces, evaluations, prompt calls); 30-day Pro trial available | Cloud developer toolkit from W&B for logging, tracing, visualizing, and evaluating LLM calls, retrieved context chunks, and multi-agent trajectories. |
 | **[LangSmith (LangChain)](https://langchain.com)** | $1.25B–$1.3B valuation (Series B, 2025); ~$15M ARR | $39 / seat / month (Plus plan; 10,000 shared base traces/month included) | Free forever plan (Developer): 1 seat, 5,000 base traces/month, 14-day retention | All-in-one cloud platform for tracing, debugging, testing, and evaluating context flows, prompt templates, and stateful LangGraph agent runs. |
@@ -61,144 +60,115 @@ The sector is currently **moderately fragmented at the tooling and evaluation ap
 | **[Lunary](https://lunary.ai)** | Early-stage startup (accelerator-backed via Xpreneurs; private bootstrapped/seed scale) | $20 / user / month (Team plan; 50,000 events/month and 300 playground queries included) | No free forever plan & no free trial for new cloud workspaces (upfront paid subscription required; self-hosted community edition free) | Production LLM observability, prompt management, and user analytics platform tailored for multi-step AI agent workflows and B2B AI applications. |
 | **[OpenLIT Cloud](https://openlit.io)** | Open-source community & bootstrapping scale (no institutional funding raised) | Custom / Enterprise quote (Cloud hosted preview; contact for details) | Open-source self-hosted edition: Free forever with unlimited spans, traces, and metrics under Apache 2.0 (managed cloud tier in preview) | Hosted OpenTelemetry-native observability and GPU/LLM monitoring platform tracking token consumption, vector DB retrieval latency, and agent spans. |
 
+---
+
+## 💻 Open-Source GitHub Projects
+
+*Ranked strictly by GitHub Star Count (Descending). Each badge links directly to the project's stargazers community.*
+
+| 🏆 Project & Star Badge | 📜 License | 🎯 Core Context Engineering & Agent Capabilities |
+| :--- | :--- | :--- |
+| **[MarkItDown (`microsoft/markitdown`)](https://github.com/microsoft/markitdown)**<br>[![Stars](https://img.shields.io/github/stars/microsoft/markitdown?style=social&color=white)](https://github.com/microsoft/markitdown/stargazers) | `MIT` | Python engine for converting PDFs, Office docs (Word, Excel, PowerPoint), audio, and images into clean Markdown context optimized for LLMs. |
+| **[LangChain (`langchain-ai/langchain`)](https://github.com/langchain-ai/langchain)**<br>[![Stars](https://img.shields.io/github/stars/langchain-ai/langchain?style=social&color=white)](https://github.com/langchain-ai/langchain/stargazers) | `MIT` | Foundational framework for composing multi-step agent graphs, context retrieval pipelines, prompt templates, and structured tool interactions. |
+| **[Claude-Mem (`thedotmack/claude-mem`)](https://github.com/thedotmack/claude-mem)**<br>[![Stars](https://img.shields.io/github/stars/thedotmack/claude-mem?style=social&color=white)](https://github.com/thedotmack/claude-mem/stargazers) | `Apache-2.0` | Persistent cross-session context engine for AI coding agents that captures working memory, task states, and project learnings across conversations. |
+| **[RAGFlow (`infiniflow/ragflow`)](https://github.com/infiniflow/ragflow)**<br>[![Stars](https://img.shields.io/github/stars/infiniflow/ragflow?style=social&color=white)](https://github.com/infiniflow/ragflow/stargazers) | `Apache-2.0` | Agent-native RAG orchestration engine featuring deep document understanding, template-based chunking, and grounded context extraction. |
+| **[MCP Reference Servers (`modelcontextprotocol/servers`)](https://github.com/modelcontextprotocol/servers)**<br>[![Stars](https://img.shields.io/github/stars/modelcontextprotocol/servers?style=social&color=white)](https://github.com/modelcontextprotocol/servers/stargazers) | `MIT` | Official reference implementations for the Model Context Protocol (MCP), exposing structured context from Git, PostgreSQL, Google Drive, and local filesystems. |
+| **[Docling (`docling-project/docling`)](https://github.com/docling-project/docling)**<br>[![Stars](https://img.shields.io/github/stars/docling-project/docling?style=social&color=white)](https://github.com/docling-project/docling/stargazers) | `MIT` | Advanced document parser parsing complex PDFs, formulas, tables, and multi-column layouts into high-fidelity context for RAG and agent ingestion. |
+| **[Mem0 (`mem0ai/mem0`)](https://github.com/mem0ai/mem0)**<br>[![Stars](https://img.shields.io/github/stars/mem0ai/mem0?style=social&color=white)](https://github.com/mem0ai/mem0/stargazers) | `Apache-2.0` | The memory layer for AI agents; provides self-improving personalization and dynamic long-term context retention across user interactions. |
+| **[Context7 MCP (`upstash/context7`)](https://github.com/upstash/context7)**<br>[![Stars](https://img.shields.io/github/stars/upstash/context7?style=social&color=white)](https://github.com/upstash/context7/stargazers) | `MIT` | Model Context Protocol server that dynamically pulls up-to-date, versioned library documentation and syntax guides into coding agent windows. |
+| **[LlamaIndex (`run-llama/llama_index`)](https://github.com/run-llama/llama_index)**<br>[![Stars](https://img.shields.io/github/stars/run-llama/llama_index?style=social&color=white)](https://github.com/run-llama/llama_index/stargazers) | `MIT` | Leading data framework for LLMs providing advanced context indexers, semantic chunkers, vector store connectors, and agentic query engines. |
+| **[DSPy (`stanfordnlp/dspy`)](https://github.com/stanfordnlp/dspy)**<br>[![Stars](https://img.shields.io/github/stars/stanfordnlp/dspy?style=social&color=white)](https://github.com/stanfordnlp/dspy/stargazers) | `MIT` | Declarative framework from Stanford NLP for programmatically compiling and optimizing prompts, few-shot demonstrations, and context retrieval modules. |
+| **[Langfuse (`langfuse/langfuse`)](https://github.com/langfuse/langfuse)**<br>[![Stars](https://img.shields.io/github/stars/langfuse/langfuse?style=social&color=white)](https://github.com/langfuse/langfuse/stargazers) | `MIT / FSL` | Leading open-source LLM engineering platform for agent observability, context versioning, trace waterfalls, LLM cost tracking, and online evals. |
+| **[Qdrant (`qdrant/qdrant`)](https://github.com/qdrant/qdrant)**<br>[![Stars](https://img.shields.io/github/stars/qdrant/qdrant?style=social&color=white)](https://github.com/qdrant/qdrant/stargazers) | `Apache-2.0` | Ultra-fast vector database with rich payload filtering, ideal for semantic context retrieval, agent working memory, and hybrid keyword search. |
+| **[Graphiti (`getzep/graphiti`)](https://github.com/getzep/graphiti)**<br>[![Stars](https://img.shields.io/github/stars/getzep/graphiti?style=social&color=white)](https://github.com/getzep/graphiti/stargazers) | `Apache-2.0` | Real-time knowledge graph framework for AI agents that maps dynamic entities, temporal relations, and episodic context facts over time. |
+| **[Chroma (`chroma-core/chroma`)](https://github.com/chroma-core/chroma)**<br>[![Stars](https://img.shields.io/github/stars/chroma-core/chroma?style=social&color=white)](https://github.com/chroma-core/chroma/stargazers) | `Apache-2.0` | Lightweight, open-source AI-native embedding database tailored for quick local prototyping of RAG context caches and agent short-term memory. |
+| **[Repomix (`yamadashy/repomix`)](https://github.com/yamadashy/repomix)**<br>[![Stars](https://img.shields.io/github/stars/yamadashy/repomix?style=social&color=white)](https://github.com/yamadashy/repomix/stargazers) | `MIT` | CLI and MCP tool that packs entire code repositories into compact, single-file XML, Markdown, or JSON context bundles with Tree-sitter compression. |
+| **[Tree-sitter (`tree-sitter/tree-sitter`)](https://github.com/tree-sitter/tree-sitter)**<br>[![Stars](https://img.shields.io/github/stars/tree-sitter/tree-sitter?style=social&color=white)](https://github.com/tree-sitter/tree-sitter/stargazers) | `MIT` | Fast, incremental parser generating concrete syntax trees; foundation for syntax-aware code context packing, symbol slicing, and smart chunking. |
+| **[Promptfoo (`promptfoo/promptfoo`)](https://github.com/promptfoo/promptfoo)**<br>[![Stars](https://img.shields.io/github/stars/promptfoo/promptfoo?style=social&color=white)](https://github.com/promptfoo/promptfoo/stargazers) | `MIT` | CLI & testing framework for prompt/context experimentation, automated red-teaming, hallucination assertions, and CI/CD quality gate enforcement. |
+| **[Opik (`comet-ml/opik`)](https://github.com/comet-ml/opik)**<br>[![Stars](https://img.shields.io/github/stars/comet-ml/opik?style=social&color=white)](https://github.com/comet-ml/opik/stargazers) | `Apache-2.0` | Production LLM evaluation and observability tool from Comet designed to debug agent chains, trace RAG context retrieval, and run LLM-as-a-judge scores. |
+| **[DeepEval (`confident-ai/deepeval`)](https://github.com/confident-ai/deepeval)**<br>[![Stars](https://img.shields.io/github/stars/confident-ai/deepeval?style=social&color=white)](https://github.com/confident-ai/deepeval/stargazers) | `Apache-2.0` | Comprehensive LLM evaluation suite measuring context relevancy, hallucination index, faithfulness, answer relevancy, and custom G-Eval criteria. |
+| **[Ragas (`explodinggradients/ragas`)](https://github.com/explodinggradients/ragas)**<br>[![Stars](https://img.shields.io/github/stars/explodinggradients/ragas?style=social&color=white)](https://github.com/explodinggradients/ragas/stargazers) | `Apache-2.0` | Specialized evaluation framework calculating context precision, context recall, context entities recall, and factual groundedness for RAG pipelines. |
+| **[Gitingest (`coderamp-labs/gitingest`)](https://github.com/coderamp-labs/gitingest)**<br>[![Stars](https://img.shields.io/github/stars/coderamp-labs/gitingest?style=social&color=white)](https://github.com/coderamp-labs/gitingest/stargazers) | `MIT` | Web utility and package that transforms any GitHub repository into an LLM-ready text digest with hierarchical file directory trees. |
+| **[Arize Phoenix (`Arize-ai/phoenix`)](https://github.com/Arize-ai/phoenix)**<br>[![Stars](https://img.shields.io/github/stars/Arize-ai/phoenix?style=social&color=white)](https://github.com/Arize-ai/phoenix/stargazers) | `ELv2` | OpenTelemetry-native AI observability platform providing span trace waterfalls, RAG retrieval context relevance inspection, and eval notebooks. |
+| **[Code2Prompt (`mufeedvh/code2prompt`)](https://github.com/mufeedvh/code2prompt)**<br>[![Stars](https://img.shields.io/github/stars/mufeedvh/code2prompt?style=social&color=white)](https://github.com/mufeedvh/code2prompt/stargazers) | `MIT` | High-speed Rust CLI that compiles codebases into structured LLM prompts using Handlebars templating and `.gitignore` file filtering. |
+| **[OpenLLMetry (`traceloop/openllmetry`)](https://github.com/traceloop/openllmetry)**<br>[![Stars](https://img.shields.io/github/stars/traceloop/openllmetry?style=social&color=white)](https://github.com/traceloop/openllmetry/stargazers) | `Apache-2.0` | Set of OpenTelemetry standard instrumentations for monitoring LLM calls, vector database lookups, and multi-agent frameworks with zero vendor lock-in. |
+| **[LLMLingua (`microsoft/LLMLingua`)](https://github.com/microsoft/LLMLingua)**<br>[![Stars](https://img.shields.io/github/stars/microsoft/LLMLingua?style=social&color=white)](https://github.com/microsoft/LLMLingua/stargazers) | `MIT` | Microsoft Research prompt compression library compressing long context prompts up to 20x while retaining high semantic reasoning fidelity. |
+| **[Helicone (`Helicone/helicone`)](https://github.com/Helicone/helicone)**<br>[![Stars](https://img.shields.io/github/stars/Helicone/helicone?style=social&color=white)](https://github.com/Helicone/helicone/stargazers) | `Apache-2.0` | Open-source LLM proxy gateway enabling caching, rate limiting, request tracing, latency tracking, and cost analytics with a 1-line code drop-in. |
+| **[dsh-context (`bowenliang123/dsh-context`)](https://github.com/bowenliang123/dsh-context)**<br>[![Stars](https://img.shields.io/github/stars/bowenliang123/dsh-context?style=social&color=white)](https://github.com/bowenliang123/dsh-context/stargazers) | `Apache-2.0` | Developer shell context utility designed for assembling, tokenizing, and formatting task context specifically for AI coding agents. |
+| **[Agenta (`Agenta-AI/agenta`)](https://github.com/Agenta-AI/agenta)**<br>[![Stars](https://img.shields.io/github/stars/Agenta-AI/agenta?style=social&color=white)](https://github.com/Agenta-AI/agenta/stargazers) | `Apache-2.0` | Developer workspace for building, prompt engineering, versioning, and rigorously evaluating agent workflows with human-in-the-loop annotations. |
+| **[Chonkie (`chonkie-inc/chonkie`)](https://github.com/chonkie-inc/chonkie)**<br>[![Stars](https://img.shields.io/github/stars/chonkie-inc/chonkie?style=social&color=white)](https://github.com/chonkie-inc/chonkie/stargazers) | `MIT` | Lightweight, lightning-fast semantic and token chunking library designed specifically to prepare high-signal text chunks for RAG context windows. |
+| **[Basic Memory (`basicmachines-co/basic-memory`)](https://github.com/basicmachines-co/basic-memory)**<br>[![Stars](https://img.shields.io/github/stars/basicmachines-co/basic-memory?style=social&color=white)](https://github.com/basicmachines-co/basic-memory/stargazers) | `AGPL-3.0` | Local-first Markdown memory system empowering AI agents to store persistent context, recall prior project sessions, and never repeat queries. |
+| **[TruLens (`truera/trulens`)](https://github.com/truera/trulens)**<br>[![Stars](https://img.shields.io/github/stars/truera/trulens?style=social&color=white)](https://github.com/truera/trulens/stargazers) | `MIT` | Evaluation and tracking library computing the "RAG Triad" (Context Relevance, Groundedness, and Answer Relevance) across agent feedback loops. |
+| **[OpenLIT (`openlit/openlit`)](https://github.com/openlit/openlit)**<br>[![Stars](https://img.shields.io/github/stars/openlit/openlit?style=social&color=white)](https://github.com/openlit/openlit/stargazers) | `Apache-2.0` | OpenTelemetry-native platform providing auto-instrumentation for 50+ LLM engines, GPU utilization tracking, prompt repositories, and latency spans. |
+| **[Weights & Biases Weave (`wandb/weave`)](https://github.com/wandb/weave)**<br>[![Stars](https://img.shields.io/github/stars/wandb/weave?style=social&color=white)](https://github.com/wandb/weave/stargazers) | `Apache-2.0` | Lightweight toolkit for logging inputs, tracking retrieved context chunks, recording tool invocations, and structuring evaluations for GenAI apps. |
+
+---
+
+## 🛠️ Architectural Recipe: Sovereign Agent Context Stack
+
+To build a deterministic, sovereign agentic system with optimal token economy, consider combining:
+
+```
+┌─────────────────────────────────────────────────────────────┐
+│ 1. Ingestion & Document Parsing                             │
+│    • Docling / MarkItDown (Structured doc extraction)       │
+│    • Chonkie / Tree-sitter (Semantic & AST code chunking)   │
+└──────────────────────────────┬──────────────────────────────┘
+                               │
+                               ▼
+┌─────────────────────────────────────────────────────────────┐
+│ 2. Context Packing & Agent Memory                           │
+│    • Repomix / Gitingest (Whole codebase context bundling)  │
+│    • Context7 MCP / MCP Servers (Live docs & dynamic tools) │
+│    • Mem0 / Graphiti / Claude-Mem (Cross-session memory)    │
+└──────────────────────────────┬──────────────────────────────┘
+                               │
+                               ▼
+┌─────────────────────────────────────────────────────────────┐
+│ 3. Prompt Optimization & Compression                        │
+│    • LLMLingua (Up to 20x token reduction / budget packing) │
+│    • DSPy (Algorithmic prompt & few-shot compilation)       │
+└──────────────────────────────┬──────────────────────────────┘
+                               │
+                               ▼
+┌─────────────────────────────────────────────────────────────┐
+│ 4. Observability, Tracing & Evaluation                      │
+│    • Langfuse / Arize Phoenix (OTel span waterfalls & costs)│
+│    • Ragas / DeepEval / TruLens (Context precision scoring) │
+└─────────────────────────────────────────────────────────────┘
+```
+
+---
+
+## 🤝 How to Contribute
+
+Contributions are warmly welcome! Help make this ecosystem resource the best reference for context engineers:
+
+1. 🍴 **Fork the repository** on GitHub.
+2. 🌿 **Create a new feature branch**: `git checkout -b feature/add-new-tool`
+3. 📝 **Add your entry**: Ensure you include factual information, transparent pricing/license details, and verify links.
+4. 📬 **Submit a Pull Request** with a descriptive summary of why the tool benefits the context engineering community.
+
+---
+
+## 💖 Support & Sponsorship
+
+If you find this curated context engineering directory helpful for your AI architecture, projects, or research:
+
+- ⭐ **Star this repository** to help other builders discover it.
+- 🍴 **Fork and share** with fellow context architects and agent developers.
+- ☕ **Support the maintainer**: Buy a coffee or sponsor ongoing maintenance on the [GitHub Sponsor Dashboard](https://github.com/sponsors/ishandutta2007).
+
+Your support keeps this repository actively researched and continuously updated!
+
+---
 
+## 📈 Star History
 
+[![Star History Chart](https://www.star-history.com/svg?repos=ishandutta2007/Awesome-AI-Context-Engineering-Agent-Tools&type=date&legend=top-left)](https://www.star-history.com/#ishandutta2007/Awesome-AI-Context-Engineering-Agent-Tools&type=date&legend=top-left)
 
+---
 
-## Open-Source GitHub Projects
+## ⚖️ Disclaimer & License
 
-
-
-- **[bowenliang123/dsh-context](https://github.com)**  
-
-  Open-source developer shell and context-engineering utility designed for assembling, formatting, and managing structured project and task context for AI coding agents and LLMs.
-
-
-
-- **[Repomix (`yamadashy/repomix`)](https://github.com)**  
-
-  Popular open-source (`MIT`) CLI and MCP tool that packs entire Git repositories into single, AI-friendly XML, Markdown, or JSON files with Tree-sitter compression and token counting.
-
-
-
-- **[Gitingest (`coderamp-labs/gitingest`)](https://github.com)**  
-
-  Open-source (`MIT`) tool and web service that converts any Git repository into a clean, structured prompt-ready text digest optimized for LLM context windows.
-
-
-
-- **[Code2Prompt (`mufeedvh/code2prompt`)](https://github.com)**  
-
-  Fast open-source (`MIT`) Rust CLI and SDK that transforms codebases into structured LLM prompts using Handlebars templates, `.gitignore` rules, and tokenizers.
-
-
-
-- **[Langfuse (`langfuse/langfuse`)](https://github.com)**  
-
-  Leading self-hostable open-source LLM engineering platform for full-stack agent tracing, prompt/context versioning, session replays, and automated evaluations.
-
-
-
-- **[Arize Phoenix (`Arize-ai/phoenix`)](https://github.com)**  
-
-  Open-source (`ELv2`) OpenTelemetry-based AI observability and evaluation tool featuring interactive trace waterfalls, retrieval context inspection, and experimentation notebooks.
-
-
-
-- **[OpenLIT (`openlit/openlit`)](https://github.com)**  
-
-  Open-source (`Apache-2.0`) OpenTelemetry-native AI engineering platform providing zero-code instrumentation for 50+ LLM providers, agent frameworks, and vector databases.
-
-
-
-- **[OpenLLMetry (`traceloop/openllmetry`)](https://github.com)**  
-
-  Open-source (`Apache-2.0`) set of extensions built on standard OpenTelemetry to capture and export non-intrusive traces of prompts, retrieved context, and tool calls.
-
-
-
-- **[Helicone (`Helicone/helicone`)](https://github.com)**  
-
-  Open-source (`Apache-2.0`) AI gateway and observability proxy enabling self-hosted request logging, context caching, token metrics, and rate limiting.
-
-
-
-- **[Lunary (`lunary-ai/lunary`)](https://github.com)**  
-
-  Self-hostable open-source (`Apache-2.0`) toolkit for LLM observability, agent run visualization, prompt templates, and PII masking.
-
-
-
-- **[Opik (`comet-ml/opik`)](https://github.com)**  
-
-  Open-source (`Apache-2.0`) end-to-end LLM evaluation and tracing platform from Comet built for logging high-volume agent traces and running LLM-as-a-judge context checks.
-
-
-
-- **[Weights & Biases Weave (`wandb/weave`)](https://github.com)**  
-
-  Open-source (`Apache-2.0`) lightweight Python/TypeScript toolkit for tracking inputs, retrieved context, nested tool calls, and evaluation scores across agent workflows.
-
-
-
-- **[LLMLingua (`microsoft/LLMLingua`)](https://github.com)**  
-
-  Open-source (`MIT`) prompt and context compression library from Microsoft Research achieving up to 20x token reduction with minimal performance loss on RAG and agent trajectories.
-
-
-
-- **[Context7 MCP (`upstash/context7`)](https://github.com)**  
-
-  Widely adopted open-source (`MIT`) Model Context Protocol (MCP) server that injects up-to-date, version-specific library documentation and code examples directly into coding agent prompts.
-
-
-
-- **[Model Context Protocol (MCP) Servers (`modelcontextprotocol/servers`)](https://github.com)**  
-
-  Official open-source (`MIT`) reference server ecosystem enabling AI agents to dynamically pull structured context from filesystems, Git, databases, and external APIs.
-
-
-
-- **[DSPy (`stanfordnlp/dspy`)](https://github.com)**  
-
-  Open-source (`MIT`) declarative framework from Stanford NLP for programmatically optimizing prompts, few-shot context examples, and retrieval pipelines via algorithmic compilers.
-
-
-
-- **[Ragas (`explodinggradients/ragas`)](https://github.com)**  
-
-  Open-source (`Apache-2.0`) evaluation framework specialized in measuring context precision, context recall, faithfulness, and answer relevance in RAG and agent pipelines.
-
-
-
-- **[Promptfoo (`promptfoo/promptfoo`)](https://github.com)**  
-
-  Open-source (`MIT`) CLI and library for testing prompt/context variations, comparing models side by side, and automating CI/CD regression checks.
-
-
-
-### Additional Strong Open-Source Options
-
-
-
-- **[Mem0 (`mem0ai/mem0`)](https://github.com)** and **[Graphiti (`getzep/graphiti`)](https://github.com)** for dynamic long-term memory and temporal knowledge-graph context engineering across agent sessions.
-
-- **[Basic Memory (`basicmachines-co/basic-memory`)](https://github.com)** and **[thedotmack/claude-mem](https://github.com)** for local-first Markdown knowledge graphs and automated coding-agent session context persistence.
-
-- **[Docling (`docling-project/docling`)](https://github.com)** and **[MarkItDown (`microsoft/markitdown`)](https://github.com)** for converting PDFs, Office docs, and HTML into clean, LLM-ready Markdown context.
-
-- **[Chonkie (`chonkie-inc/chonkie`)](https://github.com)** and **[Tree-sitter (`tree-sitter/tree-sitter`)](https://github.com)** for fast semantic text chunking and AST-aware code context extraction.
-
-- **[Agenta (`Agenta-AI/agenta`)](https://github.com)** for an open-source LLMOps playground and prompt/context management suite with human annotation workflows.
-
-
-
-**Frameworks for building custom systems**: Combine **bowenliang123/dsh-context** or **Repomix + Context7 MCP** (for codebase & documentation context packing) with **LLMLingua** (context compression), **DSPy** (prompt/context optimization), and **Langfuse / Arize Phoenix + Ragas** (observability & context evaluation) for sovereign, high-signal AI context engineering pipelines.
-
-
-
-## How to Contribute
-
-
-
-1. Fork the repo.
+Distributed under the [MIT License](LICENSE). The products, brand names, and logos referenced are trademarks or registered trademarks of their respective owners. Inclusion does not imply official endorsement.
